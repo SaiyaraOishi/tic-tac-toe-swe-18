@@ -1,5 +1,3 @@
-Tic Tac Toe Assignment of OOC-II of SWE 18
-
 **More tickets are coming. This document may also change anytime until this message is removed**
 
 # Tic Tac Toe
