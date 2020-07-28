@@ -9,7 +9,7 @@ The detailed requirements are in the issues of the repository.
 
 ## How to Submit
 **PLEASE FOLLOW THIS PROPERLY.**
-PLEASE DO NOT FOLLOW THESE STEPS UNTIL THE DRAFT IS FINAL.
+
 1. Create a branch in this repository with your two-digit Student ID and Nickname. 
    1. For example, Fahim's branch should be 01-fahim. Use all lowercase characters.
    2. There is a hyphen in between your ID and name.
