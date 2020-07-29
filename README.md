@@ -1,5 +1,3 @@
-**More tickets are coming. This document may also change anytime until this message is removed**
-
 # Tic Tac Toe
 This repository is the detail of a OOC-II Assignment for SWE 18.  
 
