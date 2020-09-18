@@ -30,7 +30,7 @@ public class Controller {
         input[1]=0;
     }
     count++;
-    rand();
+    randomAI();
     }
     public void click_2(){
         if(count%2==0) {
@@ -42,7 +42,7 @@ public class Controller {
             input[2]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_3(){
         if(count%2==0) {
@@ -54,7 +54,7 @@ public class Controller {
             input[3]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_4(){
         if(count%2==0) {
@@ -66,7 +66,7 @@ public class Controller {
             input[4]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_5(){
         if(count%2==0) {
@@ -78,7 +78,7 @@ public class Controller {
             input[5]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_6(){
         if(count%2==0) {
@@ -90,7 +90,7 @@ public class Controller {
             input[6]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_7(){
         if(count%2==0) {
@@ -102,7 +102,7 @@ public class Controller {
             input[7]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_8(){
         if(count%2==0) {
@@ -114,7 +114,7 @@ public class Controller {
             input[8]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
     public void click_9(){
         if(count%2==0) {
@@ -126,10 +126,10 @@ public class Controller {
             input[9]=0;
         }
         count++;
-        rand();
+        randomAI();
     }
 
-    public void rand(){
+    public void randomAI(){
         while(count<9 && count%2==1){
             int r= (int)(Math.random()*9)+1;
             if(input[r]==-1){
