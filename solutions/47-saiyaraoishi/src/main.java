@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
+import org.jetbrains.annotations.NotNull;
 
 
 public class main extends Application {
@@ -9,7 +10,7 @@ public class main extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@NotNull Stage primaryStage) {
         primaryStage.setTitle("tictactoe");
         primaryStage.show();
 
