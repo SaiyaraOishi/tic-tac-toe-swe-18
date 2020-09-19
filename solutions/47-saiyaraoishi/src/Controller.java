@@ -196,6 +196,6 @@ public class Controller {
         }
     }
 
-    public void defensiveAI(ActionEvent actionEvent) {
+    public void defensiveAI() {
     }
 }
