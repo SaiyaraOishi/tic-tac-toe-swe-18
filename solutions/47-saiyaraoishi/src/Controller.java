@@ -197,6 +197,6 @@ public class Controller {
     }
 
     public void defensiveAI() {
-        System.out.println("Defensiove AI");
+        
     }
 }
