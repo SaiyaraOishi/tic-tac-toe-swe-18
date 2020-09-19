@@ -1,8 +1,12 @@
+import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
+import javafx.scene.control.ToggleButton;
 
 
 public class Controller {
     public Button button1,button2,button3,button4,button5,button6,button7,button8,button9;
+    public ToggleButton startWithDefensiveAI;
+    public ToggleButton startWithRandomAI;
     Button button[]= new Button[10];
 
     public void initialize(){
@@ -24,10 +28,12 @@ public class Controller {
     if(count%2==0) {
         button1.setText("X");
         input[1]=1;
+        button1.setOpacity(1);
     }
     else if (count%2==1){
         button1.setText("O");
         input[1]=0;
+        button1.setOpacity(1);
     }
     count++;
     randomAI();
@@ -36,10 +42,12 @@ public class Controller {
         if(count%2==0) {
             button2.setText("X");
             input[2]=1;
+            button2.setOpacity(1);
         }
         else if (count%2==1){
             button2.setText("O");
             input[2]=0;
+            button2.setOpacity(1);
         }
         count++;
         randomAI();
@@ -48,10 +56,12 @@ public class Controller {
         if(count%2==0) {
             button3.setText("X");
             input[3]=1;
+            button3.setOpacity(1);
         }
         else if (count%2==1){
             button3.setText("O");
             input[3]=0;
+            button3.setOpacity(1);
         }
         count++;
         randomAI();
@@ -60,10 +70,12 @@ public class Controller {
         if(count%2==0) {
             button4.setText("X");
             input[4]=1;
+            button4.setOpacity(1);
         }
         else if (count%2==1){
             button4.setText("O");
             input[4]=0;
+            button4.setOpacity(1);
         }
         count++;
         randomAI();
@@ -72,10 +84,12 @@ public class Controller {
         if(count%2==0) {
             button5.setText("X");
             input[5]=1;
+            button5.setOpacity(1);
         }
         else if (count%2==1){
             button5.setText("O");
             input[5]=0;
+            button5.setOpacity(1);
         }
         count++;
         randomAI();
@@ -84,10 +98,12 @@ public class Controller {
         if(count%2==0) {
             button6.setText("X");
             input[6]=1;
+            button6.setOpacity(1);
         }
         else if (count%2==1){
             button6.setText("O");
             input[6]=0;
+            button6.setOpacity(1);
         }
         count++;
         randomAI();
@@ -96,10 +112,12 @@ public class Controller {
         if(count%2==0) {
             button7.setText("X");
             input[7]=1;
+            button7.setOpacity(1);
         }
         else if (count%2==1){
             button7.setText("O");
             input[7]=0;
+            button7.setOpacity(1);
         }
         count++;
         randomAI();
@@ -108,10 +126,12 @@ public class Controller {
         if(count%2==0) {
             button8.setText("X");
             input[8]=1;
+            button8.setOpacity(1);
         }
         else if (count%2==1){
             button8.setText("O");
             input[8]=0;
+            button8.setOpacity(1);
         }
         count++;
         randomAI();
@@ -120,10 +140,12 @@ public class Controller {
         if(count%2==0) {
             button9.setText("X");
             input[9]=1;
+            button9.setOpacity(1);
         }
         else if (count%2==1){
             button9.setText("O");
             input[9]=0;
+            button9.setOpacity(1);
         }
         count++;
         randomAI();
@@ -174,4 +196,6 @@ public class Controller {
         }
     }
 
+    public void defensiveAI(ActionEvent actionEvent) {
+    }
 }

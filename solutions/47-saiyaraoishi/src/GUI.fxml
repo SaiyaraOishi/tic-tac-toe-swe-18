@@ -15,47 +15,47 @@
                   <Line endX="203.0" endY="18.0" layoutX="147.0" layoutY="252.0" startX="-149.0" startY="18.0" strokeWidth="8.0" />
                   <Line endX="169.75180053710938" endY="30.27831268310547" layoutX="148.0" layoutY="160.0" rotate="90.0" startX="-259.2638244628906" startY="28.733333587646484" strokeWidth="8.0" />
                   <Line endX="220.01377868652344" endY="26.49248504638672" layoutX="235.0" layoutY="170.0" rotate="90.0" startX="-236.6201629638672" startY="24.89504051208496" strokeWidth="8.0" />
-                  <Button layoutX="-1.0" layoutY="1.0" fx:id="button1" mnemonicParsing="false" onAction="#click_1" prefHeight="127.0" prefWidth="104.0">
+                  <Button fx:id="button1" mnemonicParsing="false" onAction="#click_1" prefHeight="127.0" prefWidth="100.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="110.0" layoutY="-1.0" fx:id="button2" mnemonicParsing="false" onAction="#click_2" prefHeight="127.0" prefWidth="117.0">
+                  <Button fx:id="button2" layoutX="108.0" mnemonicParsing="false" onAction="#click_2" prefHeight="128.0" prefWidth="115.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="233.0" layoutY="2.0" fx:id="button3" mnemonicParsing="false" onAction="#click_3" prefHeight="127.0" prefWidth="117.0">
+                  <Button fx:id="button3" layoutX="232.0" mnemonicParsing="false" onAction="#click_3" prefHeight="128.0" prefWidth="116.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="2.0" layoutY="136.0" fx:id="button4" mnemonicParsing="false" onAction="#click_4" prefHeight="127.0" prefWidth="96.0">
+                  <Button fx:id="button4" layoutY="135.0" mnemonicParsing="false" onAction="#click_4" prefHeight="130.0" prefWidth="100.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="108.0" layoutY="135.0" fx:id="button5" mnemonicParsing="false" onAction="#click_5" prefHeight="127.0" prefWidth="117.0">
+                  <Button fx:id="button5" layoutX="108.0" layoutY="135.0" mnemonicParsing="false" onAction="#click_5" prefHeight="130.0" prefWidth="116.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="230.0" layoutY="136.0" fx:id="button6" mnemonicParsing="false" onAction="#click_6" prefHeight="127.0" prefWidth="117.0">
+                  <Button fx:id="button6" layoutX="232.0" layoutY="135.0" mnemonicParsing="false" onAction="#click_6" prefHeight="130.0" prefWidth="116.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutY="276.0" fx:id="button7" mnemonicParsing="false" onAction="#click_7" prefHeight="120.0" prefWidth="96.0">
+                  <Button fx:id="button7" layoutY="276.0" mnemonicParsing="false" onAction="#click_7" prefHeight="122.0" prefWidth="100.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="111.0" layoutY="276.0" fx:id="button8" mnemonicParsing="false" onAction="#click_8" prefHeight="120.0" prefWidth="110.0">
+                  <Button fx:id="button8" layoutX="108.0" layoutY="275.0" mnemonicParsing="false" onAction="#click_8" prefHeight="130.0" prefWidth="116.0">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button layoutX="234.0" layoutY="275.0" fx:id="button9" mnemonicParsing="false" onAction="#click_9" prefHeight="120.0" prefWidth="117.0">
+                  <Button fx:id="button9" layoutX="232.0" layoutY="275.0" mnemonicParsing="false" onAction="#click_9" prefHeight="122.0" prefWidth="117.0">
                      <font>
                         <Font size="36.0" />
                      </font>
@@ -82,11 +82,11 @@
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font></RadioButton>
-                  <ToggleButton layoutX="14.0" layoutY="223.0" mnemonicParsing="false" text="Random AI">
+                  <ToggleButton layoutX="14.0" layoutY="223.0" fx:id="startWithRandomAI" mnemonicParsing="false" onAction="#randomAI" text="Random AI">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font></ToggleButton>
-                  <ToggleButton layoutX="10.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Defensive AI">
+                  <ToggleButton layoutX="10.0" layoutY="292.0" fx:id="startWithDefensiveAI" mnemonicParsing="false" onAction="#defensiveAI" prefHeight="30.0" prefWidth="110.0" text="Defensive AI">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
